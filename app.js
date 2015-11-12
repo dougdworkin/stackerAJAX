@@ -1,3 +1,7 @@
+
+// Why are these set up as variables instead of just functions?
+// Is it OK taht these are global variables? 
+
 // this function takes the question object returned by StackOverflow 
 // and returns new result to be appended to DOM
 var showQuestion = function(question) {
