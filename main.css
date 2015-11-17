@@ -36,12 +36,52 @@
 }
 
 .result {
-	border: 1px solid black;
+	border: 1px solid #c2c2c2;
 	padding: 5px;
 	margin: 0 auto 1em auto;
+	clear: both;
+	float: left;
+	width: 90%;
+	border-radius: 5px;
+	font-family: sans-serif;
+	line-height: 1.7;
 }
 
 .error {
 	background-color: #F78181;
 	padding: 1em;
 }
+
+img.answerChamp {
+	float: left;
+}
+
+dl.champDetails {
+	float: right;
+	padding: 0;
+	margin: 0;
+	width: 70%
+}
+
+dl.champDetails em {
+	font-style: normal;
+}
+
+dl.champDetails span {
+	font-weight: 700;
+}
+
+.champName a {
+	font-size: 1.3em;
+	display: block;
+	padding-bottom: .25em;
+	cursor: pointer;
+}
+
+a.imageLink {
+	border: none;
+	cursor: pointer;
+}
+
+
+
